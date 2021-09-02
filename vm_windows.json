@@ -1,0 +1,22 @@
+#/subscriptions/8568bde6-d6ed-49c4-a7de-66d9be938cb7/resourceGroups/learn-d57fb125-33a6-48dc-8485-88968fb39613/providers/Microsoft.Automation/automationAccounts/fkgjfdkgjkjdkjfkj/nodes/fc41b143-04f7-11ec-a80f-000d3a3593fa
+
+#json of VM Windows for DSC
+
+{
+    "id": "/subscriptions/8568bde6-d6ed-49c4-a7de-66d9be938cb7/resourceGroups/learn-d57fb125-33a6-48dc-8485-88968fb39613/providers/Microsoft.Automation/automationAccounts/fkgjfdkgjkjdkjfkj/nodes/fc41b143-04f7-11ec-a80f-000d3a3593fa",
+    "lastSeen": "2021-08-24T16:28:02.75+00:00",
+    "registrationTime": "2021-08-24T16:26:19.42+00:00",
+    "name": "myVM",
+    "ip": "10.0.0.4;127.0.0.1;fe80::71d5:4f40:b080:578%5;::2000:0:0:0;::1;::2000:0:0:0;2001:0:34f1:8072:86a:2472:f5ff:fffb;fe80::86a:2472:f",
+    "nodeId": "fc41b143-04f7-11ec-a80f-000d3a3593fa",
+    "status": "Compliant",
+    "nodeConfiguration": {
+        "name": "MyDscConfiguration.localhost"
+    },
+    "extensionHandler": [
+        {
+            "name": "Microsoft.Powershell.DSC",
+            "version": "2.83.2.0"
+        }
+    ]
+}
